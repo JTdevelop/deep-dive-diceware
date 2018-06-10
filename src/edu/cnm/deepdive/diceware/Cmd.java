@@ -9,7 +9,8 @@ import java.util.Random;
 import java.util.Scanner;
 
 /**
- * This class holds the string of values for the EFF large wordlist each list will contain six words.
+ * This class holds the string of values for the EFF large wordlist each list will contain six
+ * words.
  */
 public class Cmd {
 
@@ -17,9 +18,8 @@ public class Cmd {
   private static final int DEFAULT_NUMBER_WORDS = 6;
 
   /**
-   *
-   * @param args this randomly picks the words and creates a new list of strings
-   * and prints out the results of word
+   * @param args this randomly picks the words and creates a new list of strings and prints out the
+   * results of word
    * @throws FileNotFoundException this file cannot be found
    */
   public static void main(String[] args) throws FileNotFoundException {
@@ -41,9 +41,8 @@ public class Cmd {
   }
 
   /**
-   *
-   * @param filename this scans the eff text list and parses out digits and whitespace.
-   * this will return only the words needed for passphrase
+   * @param filename this scans the eff text list and parses out digits and whitespace. this will
+   * return only the words needed for passphrase
    * @return this method returns list of words
    * @throws FileNotFoundException file cannot be found by reference.
    */
